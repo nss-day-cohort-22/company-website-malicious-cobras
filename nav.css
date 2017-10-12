@@ -32,7 +32,17 @@ footer {
     text-align: center;
 }
 
+
+.selected {
+    color:#000;
+    background-color:#ccc
+}
+
+.selected a {
+    color: black;
+
 footer p {
    padding-bottom: 15px;
+
 }
 
