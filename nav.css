@@ -4,6 +4,7 @@
     padding:0;
     text-align:center;
     width: 100%;
+    
 }
 .nav li{
     display:inline;
@@ -29,5 +30,9 @@ footer {
     background-color: white;
     color: #A8A8A8;
     text-align: center;
+}
+
+footer p {
+   padding-bottom: 15px;
 }
 
