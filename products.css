@@ -23,7 +23,7 @@
     background-color: white;
     flex-direction: column;
     color: #2E2E2E;
-    border-top: 15px solid #95DADB
+    border-top: 10px solid #95DADB
     
     
 }
@@ -36,13 +36,17 @@
     margin-right: auto;
     filter: grayscale(100%);
     height: 150px;
-    
+    border-radius: 5px;
 }
 
 .products ul {
     list-style: none;
     margin-left: -25px;
     padding-right: 15px;
+}
+
+.products li {
+    padding-bottom: 5px;
 }
 
 #heading {
@@ -54,6 +58,7 @@
     margin-left: auto;
     opacity: .8;
     padding-bottom: 10px;
-    color: #2E2E2E
+    color: #2E2E2E;
+    margin-top: 0px;
 }
 
