@@ -4,6 +4,7 @@
     padding:0;
     text-align:center;
     width: 100%;
+    
 }
 .nav li{
     display:inline;
@@ -22,7 +23,7 @@
 }
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
