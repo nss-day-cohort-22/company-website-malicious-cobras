@@ -13,9 +13,9 @@ body{
     display: flex;
     box-shadow: 10px 10px 20px #2E2E2E;
     border-radius: 5px;
-    width: 32%;
+    width: 30%;
     height: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     background-color: white;
     justify-content: center;
     
