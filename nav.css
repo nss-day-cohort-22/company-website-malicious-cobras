@@ -41,8 +41,10 @@ footer {
 .selected a {
     color: black;
 
-footer p {
-   padding-bottom: 15px;
-
 }
+
+footer p {
+    padding-bottom: 15px;
+ 
+ }
 
