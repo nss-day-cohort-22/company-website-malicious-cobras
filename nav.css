@@ -4,6 +4,7 @@
     padding:0;
     text-align:center;
     width: 100%;
+    
 }
 .nav li{
     display:inline;
@@ -31,6 +32,7 @@ footer {
     text-align: center;
 }
 
+
 .selected {
     color:#000;
     background-color:#ccc
@@ -38,5 +40,9 @@ footer {
 
 .selected a {
     color: black;
+
+footer p {
+   padding-bottom: 15px;
+
 }
 
