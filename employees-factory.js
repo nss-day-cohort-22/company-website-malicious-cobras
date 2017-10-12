@@ -26,7 +26,7 @@ const chase = {
 const deanna = {
     "name": "Deanna Vickers",
     "store": "Reykjavík, Iceland",
-    "book": "My favorite book is Silverlock by Mark Helprin.",
+    "book": "My favorite book is Silverlock by John Myers Myers.",
     "img": "Deanna Profile-1.jpg"
 }
 

@@ -2,7 +2,7 @@
 
 const employees = JSON.parse(localStorage.getItem("empDatabase"))
 const employeeInfo = document.getElementsByClassName("employees")[0]
-employeeInfo.innerHTML += "<h2>Our Employees:</h2>"
+employeeInfo.innerHTML += "<h2>Meet Our Employees!</h2>"
 
 for (let key in employees) {
     const currentEmp = employees[key]
@@ -11,11 +11,18 @@ for (let key in employees) {
         let emp = currentEmp[i]
         employeeInfo.innerHTML += `
         <article class="${key}">
-            <img src="${emp.img}" width="200px">
-            <h3>${emp.name}</h3>
-            <p>${emp.store}</p>
-            <p>${emp.book}</p>
+            <div class="info">
+                <img src="${emp.img}" width="200px">
+                    <div class="move">
+                        <div class="box">
+                            <h3>${emp.name}</h3>
+                            <p>${emp.store}</p>
+                            <p>${emp.book}</p>
+                        </div>
+                    </div>
+            </div>
         </article>
+        
         `
     }
 }
