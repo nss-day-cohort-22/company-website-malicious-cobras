@@ -31,3 +31,12 @@ footer {
     text-align: center;
 }
 
+.selected {
+    color:#000;
+    background-color:#ccc
+}
+
+.selected a {
+    color: black;
+}
+
