@@ -15,7 +15,10 @@ for (let key in BlogDatabase) {
         blogElement.innerHTML += `
         <article class="${key}">
             <h2><em>${item.title}</em></h2>
+            
             <h4>by ${item.author}</h4>
+            <h6>${item.date}</h6>
+            
             <section class="blog">
             <p>${item.content}</p>
             </section>
