@@ -1,9 +1,9 @@
-const stores = JSON.parse(localStorage.getItem("storeLocations"))
+const store = JSON.parse(localStorage.getItem("storeLocations"))
 
 const storeInfo = document.getElementsByClassName("stores")[0]
 
-for (let key in stores) {
-    const currentStore = stores[key]
+for (let key in store) {
+    const currentStore = store[key]
 
     for (let i = 0; i < currentStore.length; i++) {
         let store = currentStore[i]
@@ -17,20 +17,4 @@ for (let key in stores) {
         </article>
 `
 }
-}
-
-const mission = JSON.parse(localStorage.getItem("missionStmt"))
-
-const missionInfo = document.getElementsByClassName("mission")[0]
-
-for (let key in mission) {
-    const currentMission = mission[key]
-
-    for (let i=0; i < currentMission.length; i++) {
-        let missiondes = currentMission[i]
-        missionInfo.innerHTML += `
-        <article class=$(key)>
-            <h2>$(missiondes.stmt)</h2>
-            `
-    }
 }
