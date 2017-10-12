@@ -1,15 +1,13 @@
 
+
 .bgimage {
     position: relative;
     background-image: url('homeBook.jpg');
-    min-height: 100%;
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .75;
     background-position: center;
-   
-  
-    
 }
 
 .title {
