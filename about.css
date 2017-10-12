@@ -1,4 +1,30 @@
-div {
-    column-count: 2;
-    column-width: 100px, 200px;
+.storeList {
+    display: flex;
+    box-shadow: 10px 10px 20px #2E2E2E;
+    border-radius: 5px;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: white;
+    flex-direction: column;
+    color: #2E2E2E;
+    border-top: 15px solid #95DADB
+    
+    
+}
+
+.content {
+    background-color: #CCCCCC;
+    
+}
+}
+
+#stores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 100%;
+   
+
+
 }

@@ -1,3 +1,5 @@
+let storeList = []
+
 const locationLA = {
     "name": "baekur Los Angeles",
     "city": "Los Angeles",
@@ -30,8 +32,6 @@ const locationTN = {
     "country": "United States",
     "baekurrep": "Leah Duvic"
 }
-
-let storeList = []
 
 
 storeList.push(locationLA,locationIT,locationRK,locationTN)
