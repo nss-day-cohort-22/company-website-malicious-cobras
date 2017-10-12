@@ -1,0 +1,28 @@
+
+
+.bgimage {
+    position: relative;
+    background-image: url('homeBook.jpg');
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .75;
+    background-position: center;
+}
+
+.title {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.titleBlock {
+    text-align: center;
+    padding:8px 72px;
+    color: white;
+    background-color: black;
+    font-size:64px;
+    opacity: .9
+}
+
