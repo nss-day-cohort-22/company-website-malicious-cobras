@@ -9,7 +9,7 @@ for (let key in companyDetail) {
     for (let i = 0; i < currentStore.length; i++) {
         let store = currentStore[i]
         storeInfo.innerHTML += `
-        <article class="$(key)">
+        <article class="$(key) gridbox">
             <h3>${store.name}</h3>
             <p>${store.city}</p>
             <p>${store.stateregion}</p>
