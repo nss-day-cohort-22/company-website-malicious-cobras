@@ -1,16 +1,14 @@
-
+/*********** PAGE STYLES *********************/
 .content {
-    background-color: #CCCCCC;
-    
+    background-color: #CCCCCC;  
 }
+
+/*********** PRODUCT GRID LAYOUT *************/
 #productList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     min-height: 100%;
-   
-
-
 }
 
 .products {
@@ -23,13 +21,10 @@
     background-color: white;
     flex-direction: column;
     color: #2E2E2E;
-    border-top: 10px solid #95DADB
-    
-    
+    border-top: 10px solid #95DADB   
 }
 
 .products img {
-    
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -49,6 +44,9 @@
     padding-bottom: 5px;
 }
 
+
+
+/**************** TITLE STYLING ************/
 #heading {
     text-align: center;
     padding-top: 15px;
