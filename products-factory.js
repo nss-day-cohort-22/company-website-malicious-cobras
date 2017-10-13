@@ -1,5 +1,7 @@
+//Created an array to hold the product objects
 const products = [];
 
+//Created an object for each product containing the properties of the product
 let mockingbird = {
     "title": "To Kill a Mockingbird --First Edition",
     "author": "Harper Lee",
@@ -63,9 +65,14 @@ let moby = {
     "img": "moby.jpg"
 };
 
+//Pushed all product objects into the products array.
 products.push(mockingbird, gatsby, prejudice, orwell, ring, soldier, silver, women, moby);
 
+//Created a constant variable holding the stringified array
 const productsArchiveString = JSON.stringify(products);
+
+//Stored the stringified array into LocalStorage.
 localStorage.setItem("productsArchive", productsArchiveString);
 
+//Created a variable to hold the parsed array pulled from LocalStorate
 const storedProducts = JSON.parse(localStorage.getItem("productsArchive"));
