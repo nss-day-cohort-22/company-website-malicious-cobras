@@ -5,8 +5,7 @@ const locationLA = {
     "city": "Los Angeles",
     "stateregion": "California",
     "country": "United States",
-    "baekurrep": "Tyler Bowman"
-    //ADD TYLER'S BIO HERE
+    "baekurrep": "Tyler Bowman" 
 }
 
 const locationIT = {
@@ -32,7 +31,6 @@ const locationTN = {
     "country": "United States",
     "baekurrep": "Leah Duvic"
 }
-
 
 storeList.push(locationLA,locationIT,locationRK,locationTN)
 

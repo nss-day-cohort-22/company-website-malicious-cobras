@@ -1,17 +1,10 @@
 .content {
     background-color: #CCCCCC;
-
 }
-
-/* article {
-    background-color: #CCCCCC;
-    } */
-
 
 .textpadding {
     padding: 2.0em;
 }
-
 
 #heading {
     text-align: center;
@@ -25,41 +18,34 @@
     color: #2E2E2E
     }
     
+#headingtext {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .8;
+    color: #2E2E2E
+    }
 
-/* .stores {
-    display: flex;
-    box-shadow: 10px 10px 20px #2E2E2E;
-    border-radius: 5px;
-    width: 30%;
-    height: 180px;
-    margin-bottom: 30px;
-    background-color: white;
-    flex-direction: column;
-    color: #2E2E2E; */
-  
-    
-    
-
-
-/* .stores ul {
-    list-style: none;
-    margin-left: -25px;
-    padding-right: 15px;
-} */
-
-/* #storeList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    min-height: 100%;
-    */
-
-
-
+#paratext {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .8;
+    color: #2E2E2E    
+}
 .gridbox {
     display: inline-block;
-    width: 42%;
+    box-shadow: 10px 10px 20px #2E2E2E;
+    color: #2E2E2E;
+    opacity: .8;
+    width: 40%;
     margin: 10px;
-    border: 3px solid #95DADB; 
-    padding: 10px;
+    border: 5px solid #95DADB; 
+    /* background-color: #CDDFE2; */
+    background-color: #CCCCCC;
+    padding: 40px;
 }
