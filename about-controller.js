@@ -11,10 +11,9 @@ for (let key in companyDetail) {
         storeInfo.innerHTML += `
         <article class="$(key) gridbox">
             <h3>${store.name}</h3>
-            <p>${store.city}</p>
-            <p>${store.stateregion}</p>
+            <p>${store.city}, ${store.stateregion}</p>
             <p>${store.country}</p>
-            <p>${store.baekurrep}</p>
+            <p>Manager: ${store.baekurrep}</p>
         </article>
 `
 }
