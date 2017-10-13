@@ -2,7 +2,7 @@
 
 const employees = JSON.parse(localStorage.getItem("empDatabase"))
 const employeeInfo = document.getElementsByClassName("employees")[0]
-employeeInfo.innerHTML += "<h2>Meet Our Employees!</h2>"
+employeeInfo.innerHTML += "<h1>meet our employees!</h1>"
 
 for (let key in employees) {
     const currentEmp = employees[key]

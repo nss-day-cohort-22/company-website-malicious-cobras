@@ -5,41 +5,49 @@ article {
     background-color: #CCCCCC;
     }
     
-h2 {
+h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
     border-bottom: 1px solid #2E2E2E;
-    width: 250px;
-    opacity: .8;
+    width: 400px;
+    opacity: .6;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px; 
+    font-size: 2.3em;
 }
 
 .info {
     margin-left: 360px;
-    padding-bottom: 40px;
     padding-top: 10px;
 }
 
-.move {
-    float: right;
-    width: 300px;
-    height: 20px;
-    padding-right: 250px;
+div.move {
+   display: inline-block;
+
 }
 
 img {
     filter: grayscale(100%);
+    padding-left: 15px;
+    border-radius: 5px;
+    padding-right: 50px;
 }
 
-.box {
-    background-color: #95DADB;
-    opacity: 0.7;
-    padding: 3px 5px 3px 12px;
-    box-shadow: 4px 4px 2px 2px #A8A8A8;
-
-    
+div.info {
+    background-color: white;
+    border-top: 10px solid #95DADB;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
+
+article.employees {
+    padding-bottom: 15px;
+}
+
+
+
 
