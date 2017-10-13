@@ -1,6 +1,7 @@
 let storeList = []
 
-const locationLA = {
+const locationLA =
+{
     "name": "baekur Los Angeles",
     "city": "Los Angeles",
     "stateregion": "California",
@@ -8,7 +9,8 @@ const locationLA = {
     "baekurrep": "Tyler Bowman" 
 }
 
-const locationIT = {
+const locationIT =
+{
     "name": "baekur Isola di Loreto",
     "city": "Isola di Loreto",
     "stateregion": "Lombardy",
@@ -16,7 +18,8 @@ const locationIT = {
     "baekurrep": "Chase Steely"
 }
 
-const locationRK = {
+const locationRK =
+{
     "name": "baekur Reykjavik",
     "city": "Reykjavik",
     "stateregion": "Capitol Region",
@@ -24,7 +27,8 @@ const locationRK = {
     "baekurrep": "Deanna Vickers",
 }
 
-const locationTN = {
+const locationTN =
+{
     "name": "baekur Nashville",
     "city": "Nashville",
     "stateregion": "Tennessee",
@@ -34,10 +38,10 @@ const locationTN = {
 
 storeList.push(locationLA,locationIT,locationRK,locationTN)
 
-let StoreLocations = {
+let StoreLocations =
+{
     "storeList": storeList
 }
 
-const storeLocationsString  = JSON.stringify(StoreLocations)
-localStorage.setItem("storeLocations", storeLocationsString) 
-
+const storeLocationsString = JSON.stringify(StoreLocations)
+localStorage.setItem("storeLocations", storeLocationsString)
