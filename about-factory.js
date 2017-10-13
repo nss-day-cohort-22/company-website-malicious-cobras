@@ -2,7 +2,7 @@ let storeList = []
 
 const locationLA =
 {
-    "name": "baekur Los Angeles",
+    "name": "bækur Los Angeles",
     "city": "Los Angeles",
     "stateregion": "California",
     "country": "United States",
@@ -11,7 +11,7 @@ const locationLA =
 
 const locationIT =
 {
-    "name": "baekur Isola di Loreto",
+    "name": "bækur Isola di Loreto",
     "city": "Isola di Loreto",
     "stateregion": "Lombardy",
     "country": "Italy",
@@ -20,7 +20,7 @@ const locationIT =
 
 const locationRK =
 {
-    "name": "baekur Reykjavik",
+    "name": "bækur Reykjavik",
     "city": "Reykjavik",
     "stateregion": "Capitol Region",
     "country": "Iceland",
@@ -29,7 +29,7 @@ const locationRK =
 
 const locationTN =
 {
-    "name": "baekur Nashville",
+    "name": "bækur Nashville",
     "city": "Nashville",
     "stateregion": "Tennessee",
     "country": "United States",
